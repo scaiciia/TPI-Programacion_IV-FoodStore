@@ -1,0 +1,7 @@
+export { LoginPage } from './pages/LoginPage'
+export { RegisterPage } from './pages/RegisterPage'
+export { UnauthorizedPage } from './pages/UnauthorizedPage'
+export { useAuth } from './hooks/useAuth'
+export { useAuthStore } from '@/store/authStore'
+export type { AuthStatus } from '@/store/authStore'
+export type { RegisterPayload, Role, UsuarioAuth } from './types/auth.types'
